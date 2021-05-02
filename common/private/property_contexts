@@ -6,3 +6,6 @@ ro.vendor.kernel.security_patch        u:object_r:vendor_security_patch_level_pr
 
 # Updater, OTA testing
 sys.update.                            u:object_r:shell_prop:s0
+
+# Global cleartext feature
+persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop:s0 exact int

@@ -5,3 +5,6 @@ hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_trust)
 hal_client_domain(system_server, hal_lineage_powershare)
+
+# Global cleartext feature
+allow system_server system_exported_cleartext_prop:property_service set;
