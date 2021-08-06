@@ -12,3 +12,6 @@
 
 # Bash
 /system/xbin/bash          u:object_r:shell_exec:s0
+
+# restricted-networking-mode
+/dev/socket/netdl          u:object_r:fwmarkd_socket:s0
