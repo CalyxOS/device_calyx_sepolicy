@@ -1,0 +1,2 @@
+# restricted-networking-mode
+/dev/socket/netdl          u:object_r:fwmarkd_socket:s0
