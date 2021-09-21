@@ -1,1 +1,5 @@
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
+
+# Security patch
+ro.vendor.firmware.security_patch      u:object_r:vendor_security_patch_level_prop:s0 exact string
+ro.vendor.kernel.security_patch        u:object_r:vendor_security_patch_level_prop:s0 exact string
