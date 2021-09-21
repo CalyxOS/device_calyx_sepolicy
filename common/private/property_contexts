@@ -27,6 +27,10 @@ ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact 
 persist.vendor.nfc.config_file_name    u:object_r:vendor_persist_nfc_prop:s0 exact string
 persist.vendor.nfc.fw_file_name        u:object_r:vendor_persist_nfc_prop:s0 exact string
 
+# Security patch
+ro.vendor.firmware.security_patch      u:object_r:vendor_security_patch_level_prop:s0 exact string
+ro.vendor.kernel.security_patch        u:object_r:vendor_security_patch_level_prop:s0 exact string
+
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
 
