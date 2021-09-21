@@ -18,6 +18,10 @@ ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 
+# Security patch
+ro.vendor.firmware.security_patch      u:object_r:vendor_security_patch_level_prop:s0 exact string
+ro.vendor.kernel.security_patch        u:object_r:vendor_security_patch_level_prop:s0 exact string
+
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
 
