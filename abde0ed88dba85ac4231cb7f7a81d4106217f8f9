@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce826c36_85a2a2bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-11T22:51:18Z",
+      "side": 1,
+      "message": "Called it updater2 for now to avoid conflict with lineage updater.",
+      "revId": "abde0ed88dba85ac4231cb7f7a81d4106217f8f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
