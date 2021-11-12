@@ -16,6 +16,23 @@
       "message": "There\u0027s still a slight difference here, so I\u0027d like to test first.",
       "revId": "44c417c83d21c1c7b49ad891511c3f0253538dc5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eeb61ec_bedf1017",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-12T22:21:18Z",
+      "side": 1,
+      "message": "Other patch FTR: 6687: Create a separate SELinux domain for the OTA Updater | https://review.calyxos.org/c/CalyxOS/device_calyx_sepolicy/+/6687",
+      "revId": "44c417c83d21c1c7b49ad891511c3f0253538dc5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
