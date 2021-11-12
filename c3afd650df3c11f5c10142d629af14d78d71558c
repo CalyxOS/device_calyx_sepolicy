@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e472d8d_9d4d212b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-12T22:24:40Z",
+      "side": 1,
+      "message": "Actually we don\u0027t need this as-is now, the prop is set directly from frameworks.\n\n",
+      "revId": "c3afd650df3c11f5c10142d629af14d78d71558c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
