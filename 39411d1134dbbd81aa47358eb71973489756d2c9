@@ -16,6 +16,23 @@
       "message": "Will properly remove before shipping.",
       "revId": "39411d1134dbbd81aa47358eb71973489756d2c9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7803fa5a_1bc22aee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-11-12T22:17:23Z",
+      "side": 1,
+      "message": "Can be abandoned, cleanup chain is up now",
+      "revId": "39411d1134dbbd81aa47358eb71973489756d2c9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
