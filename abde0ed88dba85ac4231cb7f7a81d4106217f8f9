@@ -16,6 +16,23 @@
       "message": "Called it updater2 for now to avoid conflict with lineage updater.",
       "revId": "abde0ed88dba85ac4231cb7f7a81d4106217f8f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2524f9f_161ac08f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-11-12T22:16:47Z",
+      "side": 1,
+      "message": "Replaced by https://review.calyxos.org/c/CalyxOS/device_calyx_sepolicy/+/6713",
+      "revId": "abde0ed88dba85ac4231cb7f7a81d4106217f8f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
