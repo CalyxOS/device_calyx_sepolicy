@@ -1,1 +1,2 @@
 user=_app isPrivApp=true seinfo=platform name=org.lineageos.updater domain=updater_app type=app_data_file levelFrom=user
+user=firewall_app isPrivApp=true seinfo=platform name=org.calyxos.datura domain=priv_app type=privapp_data_file
