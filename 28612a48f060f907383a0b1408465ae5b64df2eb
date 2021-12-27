@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31f8ba98_d2f1873e",
+        "filename": "common/private/seapp_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T20:17:36Z",
+      "side": 1,
+      "message": "user\u003d dervied from aid\n\nSee system/sepolicy/private/seapp_contexts for more info.",
+      "revId": "28612a48f060f907383a0b1408465ae5b64df2eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
