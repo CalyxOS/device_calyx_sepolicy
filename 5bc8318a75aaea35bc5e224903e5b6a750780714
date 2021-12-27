@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf9aa67e_539a6112",
+        "filename": "common/private/seapp_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T21:10:42Z",
+      "side": 1,
+      "message": "How to cause bootloops.",
+      "revId": "5bc8318a75aaea35bc5e224903e5b6a750780714",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

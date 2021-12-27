@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2839b25_2d742557",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T21:10:42Z",
+      "side": 1,
+      "message": "$ adb shell ps -AZ | rg -i datura\nu:r:untrusted_app:s0           firewall_app  5565   978 15105464 200816 0                  0 S org.calyxos.datura",
+      "revId": "8b86471168a67e5d5b25d1b5efa8d5ce5e283a9d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
