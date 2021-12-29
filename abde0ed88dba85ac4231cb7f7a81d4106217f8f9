@@ -33,6 +33,23 @@
       "message": "Replaced by https://review.calyxos.org/c/CalyxOS/device_calyx_sepolicy/+/6713",
       "revId": "abde0ed88dba85ac4231cb7f7a81d4106217f8f9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad7a59bd_ee71e792",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-29T16:54:26Z",
+      "side": 1,
+      "message": "Needs update for new updater.",
+      "revId": "abde0ed88dba85ac4231cb7f7a81d4106217f8f9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
