@@ -1,2 +1,3 @@
 user=_app isPrivApp=true name=app.seamlessupdate.client domain=updater_app type=app_data_file levelFrom=user
+user=_app isPrivApp=true name=org.calyxos.systemupdater domain=updater_app type=app_data_file levelFrom=user
 user=firewall_app seinfo=platform name=org.calyxos.datura domain=untrusted_app type=app_data_file
