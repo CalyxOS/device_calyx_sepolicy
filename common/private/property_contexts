@@ -28,6 +28,9 @@ ro.build.version.real_security_patch   u:object_r:build_prop:s0 exact string
 # System-scheduled backups act as migrations (device-to-device transfers)
 persist.backup.fake-d2d                u:object_r:backup_d2d_prop:s0 exact bool
 
+# SystemUpdater
+sys.updater.                           u:object_r:shell_prop:s0
+
 # Updater, OTA testing
 sys.update.                            u:object_r:shell_prop:s0
 
