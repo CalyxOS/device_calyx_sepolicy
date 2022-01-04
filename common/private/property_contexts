@@ -21,3 +21,6 @@ persist.testing.multiple_work_profiles u:object_r:shell_prop:s0
 
 # Keychords without adb (3-button bug report)
 persist.init.keychords                 u:object_r:exported_keychords_prop:s0 exact bool
+
+# SystemUpdater
+sys.updater.                           u:object_r:shell_prop:s0
