@@ -28,6 +28,9 @@ ro.vendor.firmware.security_patch      u:object_r:vendor_security_patch_level_pr
 ro.vendor.kernel.security_patch        u:object_r:vendor_security_patch_level_prop:s0 exact string
 ro.build.version.real_security_patch   u:object_r:build_prop:s0 exact string
 
+# SystemUpdater
+sys.updater.                           u:object_r:shell_prop:s0
+
 # Updater, OTA testing
 sys.update.                            u:object_r:shell_prop:s0
 
