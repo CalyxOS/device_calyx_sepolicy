@@ -24,3 +24,6 @@ persist.init.keychords                 u:object_r:exported_keychords_prop:s0 exa
 
 # System-scheduled backups act as migrations (device-to-device transfers)
 persist.backup.fake-d2d                u:object_r:backup_d2d_prop:s0 exact bool
+
+# SystemUpdater
+sys.updater.                           u:object_r:shell_prop:s0
