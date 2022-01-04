@@ -4,3 +4,4 @@ user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google
 
 # Updater
 user=_app isPrivApp=true name=app.seamlessupdate.client domain=updater_app type=app_data_file levelFrom=user
+user=_app isPrivApp=true name=org.calyxos.systemupdater domain=updater_app type=app_data_file levelFrom=user
