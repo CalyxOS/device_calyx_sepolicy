@@ -33,3 +33,6 @@ persist.init.trust_restrict_usb        u:object_r:trust_restrict_usb_prop:s0 exa
 
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
+
+# SystemUpdater
+sys.updater.                           u:object_r:shell_prop:s0
