@@ -1,0 +1,2 @@
+# Allow netd to find OemNetdListenerService to be found
+allow netd oem_netd_listener_service:service_manager find;

@@ -2,3 +2,4 @@ lineageglobalactions                      u:object_r:lineage_globalactions_servi
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
 lineagetrust                              u:object_r:lineage_trust_service:s0
+oem_netd_listener                         u:object_r:oem_netd_listener_service:s0
