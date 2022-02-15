@@ -16,6 +16,23 @@
       "message": "Actually we don\u0027t need this as-is now, the prop is set directly from frameworks.\n\n",
       "revId": "c3afd650df3c11f5c10142d629af14d78d71558c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc037b95_d762b454",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-02-15T12:26:21Z",
+      "side": 1,
+      "message": "Do not ship until global cleartext has moved to Datura",
+      "revId": "c3afd650df3c11f5c10142d629af14d78d71558c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
