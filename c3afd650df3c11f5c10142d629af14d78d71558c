@@ -33,6 +33,23 @@
       "message": "Do not ship until global cleartext has moved to Datura",
       "revId": "c3afd650df3c11f5c10142d629af14d78d71558c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "710c7c33_4a6d55de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-15T16:05:57Z",
+      "side": 1,
+      "message": "```\n[   84.572927] type\u003d1107 audit(1644926138.884:17): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc: denied { set } for property\u003dpersist.sys.global.cleartext pid\u003d6474 uid\u003d1000 gid\u003d1000 scontext\u003du:r:system_server:s0 tcontext\u003du:object_r:system_exported_cleartext_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n```\n\nWe can just switch this patch to allow system_server instead.",
+      "revId": "c3afd650df3c11f5c10142d629af14d78d71558c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
