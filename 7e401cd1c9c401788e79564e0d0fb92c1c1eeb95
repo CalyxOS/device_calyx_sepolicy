@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88f408b2_9ac4b480",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-23T22:04:08Z",
+      "side": 1,
+      "message": "Might be easier to just pick what we need next time.",
+      "revId": "7e401cd1c9c401788e79564e0d0fb92c1c1eeb95",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
