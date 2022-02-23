@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6359da1_fcfce487",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-23T22:03:21Z",
+      "side": 1,
+      "message": "We don\u0027t need this now but I don\u0027t know of the best way to handle that.\n\nCan do another follow up and remove anything we don\u0027t want.",
+      "revId": "6581b43a141e11cc1597533743fbd5d621bba1ff",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
