@@ -33,6 +33,24 @@
       "message": "ro.build.version.security_patch is not labelled either",
       "revId": "6f5870723638c0101b4e4497c61f7a171f278401",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db87cfd8_efd42e8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-30T18:34:04Z",
+      "side": 1,
+      "message": "It is, in system/sepolicy\n\nWhere do you think I copied the label from? 😊",
+      "parentUuid": "8ab6b021_da56b871",
+      "revId": "6f5870723638c0101b4e4497c61f7a171f278401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
