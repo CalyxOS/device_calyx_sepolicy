@@ -14,6 +14,7 @@ ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 # Security patch
 ro.vendor.firmware.security_patch      u:object_r:vendor_security_patch_level_prop:s0 exact string
 ro.vendor.kernel.security_patch        u:object_r:vendor_security_patch_level_prop:s0 exact string
+ro.build.version.real_security_patch   u:object_r:build_prop:s0 exact string
 
 # Updater, OTA testing
 sys.update.                            u:object_r:shell_prop:s0
