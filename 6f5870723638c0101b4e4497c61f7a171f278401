@@ -16,6 +16,23 @@
       "message": "Builds. Things did seem fine without it, but we should label anyway I think.",
       "revId": "6f5870723638c0101b4e4497c61f7a171f278401",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ab6b021_da56b871",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-03-30T18:14:52Z",
+      "side": 1,
+      "message": "ro.build.version.security_patch is not labelled either",
+      "revId": "6f5870723638c0101b4e4497c61f7a171f278401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
