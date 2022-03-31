@@ -51,6 +51,23 @@
       "parentUuid": "8ab6b021_da56b871",
       "revId": "6f5870723638c0101b4e4497c61f7a171f278401",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76e7c613_9a169294",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-31T10:54:20Z",
+      "side": 1,
+      "message": "$ getprop -Z | grep security\n[ro.build.version.real_security_patch]: [u:object_r:build_prop:s0]\n[ro.build.version.security_patch]: [u:object_r:build_prop:s0\n[ro.vendor.build.security_patch]: [u:object_r:vendor_security_patch_level_prop:s0] ",
+      "revId": "6f5870723638c0101b4e4497c61f7a171f278401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
