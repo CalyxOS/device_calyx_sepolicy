@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59eb3d1e_68347b40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-08-31T23:05:43Z",
+      "side": 1,
+      "message": "Empty merge, we already had these commits downstream",
+      "revId": "0b0c9fd7b6d3f332ff984334b30d32af121fc430",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
