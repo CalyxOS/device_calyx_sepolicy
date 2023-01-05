@@ -18,3 +18,6 @@ persist.sys.global.cleartext           u:object_r:system_exported_cleartext_prop
 
 # Multiple work profiles feature
 persist.testing.multiple_work_profiles u:object_r:shell_prop:s0
+
+# Keychords without adb (3-button bug report)
+persist.init.keychords                 u:object_r:exported_keychords_prop:s0 exact bool
