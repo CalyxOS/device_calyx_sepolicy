@@ -1,1 +1,2 @@
 system_restricted_prop(system_exported_cleartext_prop);
+system_restricted_prop(exported_keychords_prop);

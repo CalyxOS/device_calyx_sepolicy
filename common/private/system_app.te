@@ -1,6 +1,9 @@
 # Allow Settings to read ro.vendor.build.security_patch
 get_prop(system_app, vendor_security_patch_level_prop)
 
+# Allow Settings to read and write persist.init.keychords
+set_prop(system_app, exported_keychords_prop)
+
 # Allow access to the HALs
 hal_client_domain(system_app, hal_lineage_fastcharge)
 hal_client_domain(system_app, hal_lineage_livedisplay)
