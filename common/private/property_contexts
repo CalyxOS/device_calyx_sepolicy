@@ -21,3 +21,6 @@ persist.testing.multiple_work_profiles u:object_r:shell_prop:s0
 
 # Keychords without adb (3-button bug report)
 persist.init.keychords                 u:object_r:exported_keychords_prop:s0 exact bool
+
+# System-scheduled backups act as migrations (device-to-device transfers)
+persist.backup.fake-d2d                u:object_r:backup_d2d_prop:s0 exact bool
