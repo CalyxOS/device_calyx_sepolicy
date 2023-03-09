@@ -1,2 +1,3 @@
 system_restricted_prop(system_exported_cleartext_prop);
 system_restricted_prop(exported_keychords_prop);
+system_internal_prop(backup_d2d_prop);
