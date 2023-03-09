@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78633741_c7788a35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-03-09T19:56:28Z",
+      "side": 1,
+      "message": "Should work, but only tested via `adb` commands to run in a platform_app context as the Seedvault user. Obviously not the same as testing the actual app. Still, leaving a trail of how that was done here for now, in case it\u0027s somehow useful in the future.\n\nIn one terminal (Terminal 1):\n```\nadb root\n# need to temporarily turn off enforcement or runcon will not work\nadb shell setenforce 0\n```\n\nIn another (Terminal 2):\n```\nadb shell\n# now in adb shell\n# get the UID of Seedvault\nuid\u003d$(pm list packages -U | sed -nr \u0027s/^package:com\\.stevesoltys\\.seedvault uid:([0-9]+).*$/\\1/p\u0027)\n# switch to Seedvault user and context observed in ps -eZ\nsu $uid runcon \"u:r:platform_app:s0:c512,c768\" $SHELL\n```\n\nIn Terminal 1:\n```\nadb shell setenforce 1\n```\n\nIn Terminal 2:\n```\nsetprop persist.backup.fake-d2d true\n```\n\nNo error received. In contrast, trying this with `untrusted_app` in the runcon command will fail.",
+      "revId": "7a82b431b69ac7391968804c3ebba3645a27faa3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
