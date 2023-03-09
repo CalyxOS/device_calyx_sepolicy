@@ -8,6 +8,9 @@ hal_client_domain(system_server, hal_lineage_powershare)
 # Let system server find auxiliary camera properties
 get_prop(system_server, vendor_persist_camera_prop)
 
+# Let system server find fake-D2D backup property
+get_prop(system_server, backup_d2d_prop)
+
 # Let system server toggle global cleartext feature
 set_prop(system_server, system_exported_cleartext_prop)
 
