@@ -16,6 +16,29 @@
       "message": "Getting SELinux denials on payload verification: https://cpaste.org/?c56b27203767e982#AaC6yzoGPyhd45MRpndLcvHpi1zoJ9DKuPsqZa9q5oyd",
       "revId": "f82d62ff9c33a9198c320ddf70c7bb760e048cd8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd3b64ff_5fc5f998",
+        "filename": "common/private/seapp_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-03-23T12:02:58Z",
+      "side": 1,
+      "message": "Should this be ota_package_file?",
+      "range": {
+        "startLine": 2,
+        "startChar": 80,
+        "endLine": 2,
+        "endChar": 94
+      },
+      "revId": "f82d62ff9c33a9198c320ddf70c7bb760e048cd8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
