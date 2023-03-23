@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "91a32223_36ee8867",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-23T13:29:53Z",
+      "side": 1,
+      "message": "The app is calling `updateEngine.verifyPayloadMetadata` which ends up at https://cs.android.com/android/platform/superproject/+/android-13.0.0_r31:system/update_engine/aosp/update_attempter_android.cc;l\u003d516;bpv\u003d1;bpt\u003d0\n\nIt does a simple open, I don\u0027t know why it ends up with\n\n```\nW update_engine: type\u003d1400 audit(0.0:28): avc: denied { dac_read_search } for capability\u003d2 scontext\u003du:r:update_engine:s0 tcontext\u003du:r:update_engine:s0 tclass\u003dcapability permissive\u003d0\nW update_engine: type\u003d1400 audit(0.0:29): avc: denied { dac_override } for capability\u003d1 scontext\u003du:r:update_engine:s0 tcontext\u003du:r:update_engine:s0 tclass\u003dcapability permissive\u003d0\n```\n\n\nCan you `ls -lZ /data/ota_package/payload_metadata.bin`",
+      "parentUuid": "b3d312cf_6c43128b",
+      "revId": "f82d62ff9c33a9198c320ddf70c7bb760e048cd8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cd3b64ff_5fc5f998",
         "filename": "common/private/seapp_contexts",
         "patchSetId": 3
