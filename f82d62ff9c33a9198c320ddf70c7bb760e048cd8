@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "998195d6_e4f98599",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-03-23T13:33:41Z",
+      "side": 1,
+      "message": "```\n-rw------- 1 u0_a138 u0_a138 u:object_r:ota_package_file:s0:c512,c768  96066 2023-03-23 19:02 /data/ota_package/payload_metadata.bin\n\n```",
+      "parentUuid": "91a32223_36ee8867",
+      "revId": "f82d62ff9c33a9198c320ddf70c7bb760e048cd8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cd3b64ff_5fc5f998",
         "filename": "common/private/seapp_contexts",
         "patchSetId": 3
