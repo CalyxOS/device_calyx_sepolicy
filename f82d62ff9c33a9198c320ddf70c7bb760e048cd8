@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f0e12d3_bb7b0399",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-03-23T11:55:43Z",
+      "side": 1,
+      "message": "Getting SELinux denials on payload verification: https://cpaste.org/?c56b27203767e982#AaC6yzoGPyhd45MRpndLcvHpi1zoJ9DKuPsqZa9q5oyd",
+      "revId": "f82d62ff9c33a9198c320ddf70c7bb760e048cd8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
