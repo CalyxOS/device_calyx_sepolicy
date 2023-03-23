@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2687123e_b993f061",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-03-23T13:47:10Z",
+      "side": 1,
+      "message": "Ok, it\u0027s a file permissions issue. I tried `metadataFile.setReadable(true, false)` method to make it world readable worked. Though I am unsure, we want to do that even if the file gets deleted immediately after verification.",
+      "parentUuid": "998195d6_e4f98599",
+      "revId": "f82d62ff9c33a9198c320ddf70c7bb760e048cd8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cd3b64ff_5fc5f998",
         "filename": "common/private/seapp_contexts",
         "patchSetId": 3
