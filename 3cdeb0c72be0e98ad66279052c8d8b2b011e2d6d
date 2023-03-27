@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56bdce3c_a11263b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-03-27T18:09:05Z",
+      "side": 1,
+      "message": "Need to allow SystemUpdater set the channel\n\n```\n03-27 23:36:29.025 30731 30731 W s.systemupdater: type\u003d1400 audit(0.0:140): avc: denied { write } for name\u003d\"property_service\" dev\u003d\"tmpfs\" ino\u003d396 scontext\u003du:r:updater_app:s0:c512,c768 tcontext\u003du:object_r:property_socket:s0 tclass\u003dsock_file permissive\u003d0 app\u003dorg.calyxos.systemupdater\n```",
+      "revId": "3cdeb0c72be0e98ad66279052c8d8b2b011e2d6d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
