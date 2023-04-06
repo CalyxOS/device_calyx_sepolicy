@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ad2c658_322feff9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T12:01:01Z",
+      "side": 1,
+      "message": "Making this persist would expand users\u0027 ability to debug the boot process when they have turned off the Restrict USB setting, letting them do so several seconds earlier. This would still mirror the setting with no intention of replacing the setting (that would complicate backup, etc.).",
+      "revId": "30a3fcb6c1ab83a49eb7e9b6e84f9e606fd7cd01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
