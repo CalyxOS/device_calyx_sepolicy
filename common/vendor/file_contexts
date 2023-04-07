@@ -22,3 +22,6 @@
 
 # Wi-Fi HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@1\.0-service\.legacy u:object_r:hal_wifi_default_exec:s0
+
+# USB data activation script
+/(vendor|system/vendor)/bin/init\.enable_usb_data\.sh u:object_r:init_enable_usb_data_exec:s0
