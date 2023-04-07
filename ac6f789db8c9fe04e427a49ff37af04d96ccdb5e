@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "981bd8d9_1a226004",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-07T19:19:42Z",
+      "side": 1,
+      "message": "`sysfs_typec_info` is not present everywhere, like gs201",
+      "revId": "ac6f789db8c9fe04e427a49ff37af04d96ccdb5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
