@@ -34,6 +34,24 @@
       "parentUuid": "981bd8d9_1a226004",
       "revId": "ac6f789db8c9fe04e427a49ff37af04d96ccdb5e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3553a127_fea63267",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-07T22:48:11Z",
+      "side": 1,
+      "message": "Actually, this does not work for bramble, because there, `/sys/class/typec/port0/data_role` is indeed `sysfs_typec_info`... In effect, this means booting with an OTG device connected does not work because of this:\n`avc: denied { search } for comm\u003d\"grep\" name\u003d\"typec\" dev\u003d\"sysfs\" ino\u003d33310 scontext\u003du:r:init_enable_usb_data:s0 tcontext\u003du:object_r:sysfs_typec_info:s0 tclass\u003ddir permissive\u003d0`\n\n...which I just resolved for gs201, but we need a way to support both.",
+      "parentUuid": "d6e07c8d_6bcbb14f",
+      "revId": "ac6f789db8c9fe04e427a49ff37af04d96ccdb5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
