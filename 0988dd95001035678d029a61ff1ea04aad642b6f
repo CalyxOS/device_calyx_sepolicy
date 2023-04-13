@@ -52,6 +52,24 @@
       "parentUuid": "da086630_bd86ea58",
       "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63597ddd_017bf86d",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-13T12:59:37Z",
+      "side": 1,
+      "message": "I think we can run it as `system:system` instead already, or maybe even `nobody:system`, since everything we need (except `a600000.ssusb/mode`, which we could adjust) has proper access for the `system` group, established `on post-fs` in those usb gadget .rc files we\u0027ve been editing. I\u0027ll see.\n\nAs for what we need, it\u0027s device-dependent.\n\nFor qcom, we need:\n- /sys/devices/platform/soc/a600000.ssusb/mode (write)\n\nFor gs101, we need:\n- /sys/devices/platform/11110000.usb/dwc3_exynos_otg_id (write)\n- /sys/devices/platform/11110000.usb/dwc3_exynos_otg_b_sess (write)\n\nFor gs201, we need:\n- /sys/devices/platform/11210000.usb/dwc3_exynos_otg_id (write)\n- /sys/devices/platform/11210000.usb/dwc3_exynos_otg_b_sess (write)\n\nFor all, we need:\n- /sys/class/typec/port0/data_role (read)\n- /sys/class/typec/port0-partner (just check existence)",
+      "parentUuid": "68cf90ff_acd24b1a",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
