@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74eddb98_7834db64",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-13T05:58:42Z",
+      "side": 1,
+      "message": "This is quite broad, but I guess not all files are labelled. This doesn\u0027t run with any extra privileges anyways I guess, given that it\u0027s user nobody group nobody",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
