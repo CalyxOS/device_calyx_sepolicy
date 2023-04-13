@@ -16,6 +16,24 @@
       "message": "This is quite broad, but I guess not all files are labelled. This doesn\u0027t run with any extra privileges anyways I guess, given that it\u0027s user nobody group nobody",
       "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da086630_bd86ea58",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-13T11:31:20Z",
+      "side": 1,
+      "message": "Yes, we need to label them ourselves if we want it to be any more fine-grained than this, and we would also need to make sure nothing else is adversely impacted. I don\u0027t know if we should bother -- what do you think? We are already able to bypass this for `write` commands when we disable USB data.\n\nAlso: it doesn\u0027t run as `nobody`. I should probably clarify the init files, because the onrestart actions aren\u0027t subject to the user and group, only the service command itself is. So `linkerconfig --help` is running as nobody. The `exec`, unless otherwise specified, I believe runs as root.\n\n\u003e Currently defaults to root. (??? probably should default to nobody)\n\n^ From https://android.googlesource.com/platform/system/core/+/refs/heads/master/init/README.md\n\n(That is describing the `user` value, but I think it\u0027s also the default for `exec` and friends.)",
+      "parentUuid": "74eddb98_7834db64",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
