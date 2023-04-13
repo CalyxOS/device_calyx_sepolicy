@@ -88,6 +88,24 @@
       "parentUuid": "63597ddd_017bf86d",
       "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2788f9fd_1299a569",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-13T18:18:53Z",
+      "side": 1,
+      "message": "With this now running as `nobody:system`, I have no concerns. Do you?",
+      "parentUuid": "29ea1ca6_23ed032f",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
