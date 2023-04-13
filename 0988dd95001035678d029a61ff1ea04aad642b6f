@@ -34,6 +34,24 @@
       "parentUuid": "74eddb98_7834db64",
       "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68cf90ff_acd24b1a",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-13T12:36:49Z",
+      "side": 1,
+      "message": "Labelling it more fine-grained is going to be a PITA.\n\nWhich files exactly is this needed for?\n\n\u003e `root`\n\nI don\u0027t like that.",
+      "parentUuid": "da086630_bd86ea58",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
