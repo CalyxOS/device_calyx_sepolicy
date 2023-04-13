@@ -70,6 +70,24 @@
       "parentUuid": "68cf90ff_acd24b1a",
       "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29ea1ca6_23ed032f",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-13T13:33:36Z",
+      "side": 1,
+      "message": "It\u0027s working on gs201 as `nobody:system`, and also for bramble (qcom) if I add the same `chown` lines for `/mode` that it uses for usb_data_enabled, id, and b_sess.\n\n(I noticed qcom also sets `/id` and `/b_sess` which made me wonder if we could use those, but they\u0027re not even present on bramble, with OTG connected or otherwise, so no.)\n\nAlso, forgot to include `/usb_data_enabled` in the paths above.",
+      "parentUuid": "63597ddd_017bf86d",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
