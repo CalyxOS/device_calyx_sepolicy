@@ -27,3 +27,6 @@ persist.backup.fake-d2d                u:object_r:backup_d2d_prop:s0 exact bool
 
 # Current USB restriction setting, updated to match LineageSettings.Global.TRUST_RESTRICT_USB
 persist.init.trust_restrict_usb        u:object_r:trust_restrict_usb_prop:s0 exact int
+
+# xtra-daemon control
+persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
