@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3184fe2f_b54b6ec7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-11T13:33:15Z",
+      "side": 1,
+      "message": "Is it better in some way, e.g. security-wise, to use two props (persist.sys.* and persist.vendor.*) for this, or just necessary for some reason? Do you think we should be doing the same in e.g. this change?: https://review.calyxos.org/c/CalyxOS/device_calyx_sepolicy/+/16519",
+      "revId": "47ef2e551ddb8fb38a80cea5229ab74b515aa51c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
