@@ -124,6 +124,24 @@
       "parentUuid": "2788f9fd_1299a569",
       "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da1c57cc_97b1bafa",
+        "filename": "common/vendor/init_enable_usb_data.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-24T15:45:16Z",
+      "side": 1,
+      "message": "I\u0027m fine with `nobody:system`",
+      "parentUuid": "d66c4d5d_1e042a11",
+      "revId": "0988dd95001035678d029a61ff1ea04aad642b6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
