@@ -6,6 +6,16 @@ init_daemon_domain(init_enable_usb_data)
 allow init_enable_usb_data vendor_shell_exec:file rx_file_perms;
 allow init_enable_usb_data vendor_toolbox_exec:file rx_file_perms;
 
+# bonito/crosshatch
+optional {
+    require {
+        type sysfs_usb_c;
+    }
+    allow init_enable_usb_data sysfs_usb_c:dir search;
+    allow init_enable_usb_data sysfs_usb_c:file r_file_perms;
+}
+
+# coral/sunfish/redbull
 optional {
     require {
         type sysfs_typec_info;
@@ -13,6 +23,7 @@ optional {
     allow init_enable_usb_data sysfs_typec_info:dir search;
     allow init_enable_usb_data sysfs_typec_info:file r_file_perms;
 }
+
 allow init_enable_usb_data sysfs_batteryinfo:dir search;
 allow init_enable_usb_data sysfs_batteryinfo:file r_file_perms;
 allow init_enable_usb_data sysfs:dir search;
