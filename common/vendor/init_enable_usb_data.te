@@ -30,6 +30,9 @@ optional {
     allow init_enable_usb_data sysfs_typec_info:file r_file_perms;
 }
 
+# devices using legacy Trust HAL
+allow init_enable_usb_data sysfs_usb_data_enabled:file rw_file_perms;
+
 allow init_enable_usb_data sysfs_batteryinfo:dir search;
 allow init_enable_usb_data sysfs_batteryinfo:file r_file_perms;
 allow init_enable_usb_data sysfs:dir search;
