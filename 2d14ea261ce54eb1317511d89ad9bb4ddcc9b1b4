@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f78f1b0e_a1d076a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-18T18:39:45Z",
+      "side": 1,
+      "message": "Successfully allows the property to be changed by shell. That\u0027s all this changes so it\u0027s the only thing I tested.",
+      "revId": "2d14ea261ce54eb1317511d89ad9bb4ddcc9b1b4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
