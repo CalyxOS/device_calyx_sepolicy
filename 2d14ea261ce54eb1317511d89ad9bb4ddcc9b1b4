@@ -16,6 +16,29 @@
       "message": "Successfully allows the property to be changed by shell. That\u0027s all this changes so it\u0027s the only thing I tested.",
       "revId": "2d14ea261ce54eb1317511d89ad9bb4ddcc9b1b4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb821f4e_96334f69",
+        "filename": "common/private/platform_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-10-18T18:49:54Z",
+      "side": 1,
+      "message": "This should  be in shell.te",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 32
+      },
+      "revId": "2d14ea261ce54eb1317511d89ad9bb4ddcc9b1b4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
