@@ -39,6 +39,30 @@
       },
       "revId": "2d14ea261ce54eb1317511d89ad9bb4ddcc9b1b4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20141c00_2e316ed5",
+        "filename": "common/private/platform_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-18T19:15:30Z",
+      "side": 1,
+      "message": "D\u0027oh, makes sense.",
+      "parentUuid": "eb821f4e_96334f69",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 32
+      },
+      "revId": "2d14ea261ce54eb1317511d89ad9bb4ddcc9b1b4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
