@@ -33,6 +33,3 @@ persist.init.trust_restrict_usb        u:object_r:trust_restrict_usb_prop:s0 exa
 
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
-
-# WiFi
-wifi.interface.                        u:object_r:wifi_hal_prop:s0 prefix string
