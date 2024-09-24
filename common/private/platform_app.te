@@ -9,6 +9,3 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 
 # Allow PowerShare HAL service to be found
 hal_client_domain(platform_app, hal_lineage_powershare)
-
-# Allow Seedvault to control whether system-scheduled backups act as migrations (D2D transfers)
-set_prop(platform_app, backup_d2d_prop)
