@@ -1,2 +1,0 @@
-# Allow shell to control whether system-scheduled backups act as D2D transfers
-set_prop(shell, backup_d2d_prop)
