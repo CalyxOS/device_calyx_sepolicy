@@ -33,6 +33,3 @@ persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact boo
 
 # Screen mirroring disablement
 persist.sysui.disable_mirroring_confirmation_dialog u:object_r:hdmi_config_prop:s0
-
-# Use a separate process for app backup
-persist.testing.backup_agent_in_separate_process u:object_r:shell_prop:s0
