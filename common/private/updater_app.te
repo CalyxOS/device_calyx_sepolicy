@@ -11,3 +11,5 @@ allow updater_app update_engine_service:service_manager find;
 
 allow updater_app ota_package_file:dir create_dir_perms;
 allow updater_app ota_package_file:file create_file_perms;
+
+get_prop(updater_app, custom_version_prop)
