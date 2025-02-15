@@ -1,3 +1,7 @@
+# ATV
+# used by mediashell
+product_internal_prop(odm_cast_prop)
+
 system_restricted_prop(system_exported_cleartext_prop);
 system_restricted_prop(exported_keychords_prop);
 system_restricted_prop(trust_restrict_usb_prop);
