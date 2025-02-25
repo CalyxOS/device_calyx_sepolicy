@@ -42,3 +42,6 @@ vendor.usb.uvc.payload_transfer_size   u:object_r:usb_uvc_config_prop:s0
 
 # Use a separate process for app backup
 persist.testing.backup_agent_in_separate_process u:object_r:shell_prop:s0
+
+# Restart processes/services after they are killed during backup
+persist.testing.restart_processes_after_backup u:object_r:shell_prop:s0
